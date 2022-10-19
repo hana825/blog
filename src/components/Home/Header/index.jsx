@@ -11,7 +11,11 @@ const Header = () => (
     <p>
       &copy;2022 hana825 <br /> <FaGithub/> https://github.com/hana825
     </p>
+  <body>
+      <p>왜 아무것도 안뜨지..</p>
+  </body>
   </header>
+
 );
 
 export default Header;
