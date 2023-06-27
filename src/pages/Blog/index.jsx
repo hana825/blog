@@ -13,7 +13,7 @@ const markdownFiles = importAll(require.context('/public/posts', true, /\.md$/))
   // TODO : 여기부터 다시
 class WhatsNew extends Component {
   state = {
-    posts: [],
+    posts: ['test', 'test2'],
   }
 
   async componentDidMount() {
@@ -31,7 +31,7 @@ class WhatsNew extends Component {
       <Fragment>
         <Helmet title="What's New" />
         <section className="hero">
-          ... title stuff
+          {/* ... title stuff */}
         </section>
         <section className="section">
           <div className={`container ${styles.posts}`}>

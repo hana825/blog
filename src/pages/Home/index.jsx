@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Header from '../../components/Home/Header';
+import Blog from '../../pages/Blog';
 
 const Home = () => {
     const [] = useState();
@@ -9,6 +10,7 @@ const Home = () => {
     return (
         <div>
             <Header />
+            <Blog />
         </div>
     )
 };
